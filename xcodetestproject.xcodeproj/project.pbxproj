@@ -16,6 +16,7 @@
 		A6C208BB232F663F00139E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C208B9232F663F00139E99 /* LaunchScreen.storyboard */; };
 		A6C208C6232F664000139E99 /* xcodetestprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C208C5232F664000139E99 /* xcodetestprojectTests.m */; };
 		A6C208D1232F664000139E99 /* xcodetestprojectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C208D0232F664000139E99 /* xcodetestprojectUITests.m */; };
+		D73496432330EB9700EB3F41 /* NSObject+app2_h.m in Sources */ = {isa = PBXBuildFile; fileRef = D73496422330EB9700EB3F41 /* NSObject+app2_h.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A6C208CC232F664000139E99 /* xcodetestprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcodetestprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C208D0232F664000139E99 /* xcodetestprojectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcodetestprojectUITests.m; sourceTree = "<group>"; };
 		A6C208D2232F664000139E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73496412330EB9700EB3F41 /* NSObject+app2_h.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+app2_h.h"; sourceTree = "<group>"; };
+		D73496422330EB9700EB3F41 /* NSObject+app2_h.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+app2_h.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				A6C208BC232F663F00139E99 /* Info.plist */,
 				A6C208B4232F663F00139E99 /* xcodetestproject.xcdatamodeld */,
 				A6C208A8232F663F00139E99 /* Supporting Files */,
+				D73496412330EB9700EB3F41 /* NSObject+app2_h.h */,
+				D73496422330EB9700EB3F41 /* NSObject+app2_h.m */,
 			);
 			path = xcodetestproject;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			files = (
 				A6C208B0232F663F00139E99 /* ViewController.m in Sources */,
 				A6C208AD232F663F00139E99 /* AppDelegate.m in Sources */,
+				D73496432330EB9700EB3F41 /* NSObject+app2_h.m in Sources */,
 				A6C208AA232F663F00139E99 /* main.m in Sources */,
 				A6C208B6232F663F00139E99 /* xcodetestproject.xcdatamodeld in Sources */,
 			);
@@ -503,6 +509,7 @@
 				A6C208D7232F664000139E99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6C208D8232F664000139E99 /* Build configuration list for PBXNativeTarget "xcodetestprojectTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				A6C208DA232F664000139E99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6C208DB232F664000139E99 /* Build configuration list for PBXNativeTarget "xcodetestprojectUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +527,7 @@
 				A6C208DD232F664000139E99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
